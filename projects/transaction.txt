@@ -1,0 +1,1 @@
+ you balance is 50 your transaction history is [100, -50]
