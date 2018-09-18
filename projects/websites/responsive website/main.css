@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav,
+header,
+section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+nav {
+    height: 80px;
+    background-color: lightblue;
+}
+header {
+    background-color: lightcoral
+}
+#content {
+    background-color: lightcyan;
+}
+#sign-up {
+    background-color: lightgoldenrodyellow;
+}
+#feature-1 {
+    background-color: lightpink;
+}
+#feature-2 {
+    background-color: lightsalmon;
+}
+#feature-3 {
+    background-color: lightseagreen;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: #f09a9d;
+    }
+}
+
+/* Tablet styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #f5cf8e;
+    }
+    #sign-up,
+    #feature-1, 
+    #feature-2,
+    #feature-3 {
+        width: 50%
+
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 961px) {
+    body {
+        background-color: #b2d6ff;
+    }
+    main {
+        width: 960px;
+        margin: 0 auto;
+    }
+    #feature-1, 
+    #feature-2,
+    #feature-3 {
+        width: 33.3%;
+    }
+    header {
+        height: 400px;
+  
+    }
+
+    #sign-up {
+        order:1;
+        height: 200px;
+    }
+    #content {
+        order:2;
+    }
+}

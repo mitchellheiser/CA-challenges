@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 html {background-image: url("img/city.jpg");
        margin-top: 0;
        padding-top: 0;
@@ -64,10 +66,10 @@ max-width: 600px; margin-left: auto; margin-right: auto;}
 
 h1,h2,h3,h4 {font-family: 'Fjalla One', sans-serif;}
 
-p {font-family: Arial, Helvetica, sans-serif; overflow: hidden;}
+p {font-family: 'Oswald', sans-serif; overflow: hidden;}
 
 footer {background-color: white;
-    height: 60px;
+    height: 100px;
     width: 100%;
     max-width: 1336px;
     position: relative;
